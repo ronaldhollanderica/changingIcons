@@ -12,6 +12,8 @@
 		7303DB56200F7E7600A00069 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7303DB54200F7E7600A00069 /* Main.storyboard */; };
 		7303DB58200F7E7600A00069 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7303DB57200F7E7600A00069 /* Assets.xcassets */; };
 		7303DB5B200F7E7600A00069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7303DB59200F7E7600A00069 /* LaunchScreen.storyboard */; };
+		734D32FD2018C39100CC9732 /* Moon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 734D32FB2018C39100CC9732 /* Moon@3x.png */; };
+		734D32FE2018C39100CC9732 /* Moon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 734D32FC2018C39100CC9732 /* Moon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7303DB57200F7E7600A00069 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7303DB5A200F7E7600A00069 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7303DB5C200F7E7600A00069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		734D32FB2018C39100CC9732 /* Moon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Moon@3x.png"; path = "Icons/crescent-moon/ios/AppIcon.appiconset/Moon@3x.png"; sourceTree = SOURCE_ROOT; };
+		734D32FC2018C39100CC9732 /* Moon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Moon@2x.png"; path = "Icons/crescent-moon/ios/AppIcon.appiconset/Moon@2x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		7303DB4F200F7E7600A00069 /* ChangingApp */ = {
 			isa = PBXGroup;
 			children = (
+				734D32F62018C34300CC9732 /* AlternativeIcons */,
 				7303DB50200F7E7600A00069 /* AppDelegate.swift */,
 				7303DB52200F7E7600A00069 /* ViewController.swift */,
 				7303DB54200F7E7600A00069 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				7303DB5C200F7E7600A00069 /* Info.plist */,
 			);
 			path = ChangingApp;
+			sourceTree = "<group>";
+		};
+		734D32F62018C34300CC9732 /* AlternativeIcons */ = {
+			isa = PBXGroup;
+			children = (
+				734D32FC2018C39100CC9732 /* Moon@2x.png */,
+				734D32FB2018C39100CC9732 /* Moon@3x.png */,
+			);
+			path = AlternativeIcons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,8 @@
 			files = (
 				7303DB5B200F7E7600A00069 /* LaunchScreen.storyboard in Resources */,
 				7303DB58200F7E7600A00069 /* Assets.xcassets in Resources */,
+				734D32FE2018C39100CC9732 /* Moon@2x.png in Resources */,
+				734D32FD2018C39100CC9732 /* Moon@3x.png in Resources */,
 				7303DB56200F7E7600A00069 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
